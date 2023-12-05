@@ -4,7 +4,7 @@ void main(){
   printf("Enter the value of a & b");
   scanf("%d %d",&a,&b);
   printf("Enter operator");
-  scanf("%c",&op):
+  scanf("%c",&op);
   switch(op){
     case '+' : sum = a + b ;
                printf("sum=%d",sum);

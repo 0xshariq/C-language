@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 void main(){
   int a, b, c, d, e, f;
   clrscr();
@@ -12,5 +11,4 @@ void main(){
   printf("%d",e);
   printf("%d",f);
   return 0;
-  getch() ;
 }

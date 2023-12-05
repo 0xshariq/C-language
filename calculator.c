@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <conio.h>
-int a,b,operator,sum,diff,mul,div;
+int a,b,op,sum,diff,mul,div;
 void main(){
   printf("Enter the value of a & b");
-  scanf(""%d %d",&a,&b);
+  scanf("%d %d",&a,&b);
   printf("Enter operator");
-  scanf("%c",&operator):
-  switch(operator){
+  scanf("%c",&op):
+  switch(op){
     case '+' : sum = a + b ;
                printf("sum=%d",sum);
                break;

@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 int a,b,op,sum,diff,mul,div;
 void main(){
   printf("Enter the value of a & b");
@@ -21,5 +20,4 @@ void main(){
                break;
     default :  printf("Invalid operator");
   }
-  getch();
 }

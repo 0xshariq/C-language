@@ -1,6 +1,6 @@
 #include <stdio.h>
 int a,b,op,sum,diff,mul,div;
-void main(){
+int main(){
   printf("Enter the value of a & b");
   scanf("%d %d",&a,&b);
   printf("Enter operator");

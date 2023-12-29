@@ -1,7 +1,8 @@
 #include <stdio.h>
-void main(){
+int main(){
   int a, b, c, d, e, f;
-  clrscr();
+  scanf("Enter the value of a : %d",&a);
+  scanf("Enter the value of b : %d",&b);
   c = a & b;
   d = a << b;
   e = a >> b;

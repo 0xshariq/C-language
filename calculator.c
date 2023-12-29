@@ -1,10 +1,10 @@
 #include <stdio.h>
 int a,b,op,sum,diff,mul,div;
 int main(){
-  printf("Enter the value of a & b");
+  printf("Enter the value of a & b : ");
   scanf("%d %d",&a,&b);
-  printf("Enter operator");
-  scanf("%c",&op);
+  printf("Enter operator : ");
+  scanf(" %c",&op);
   switch(op){
     case '+' : sum = a + b ;
                printf("sum=%d",sum);

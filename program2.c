@@ -4,6 +4,7 @@ void main()
   int a[10],i;
   int even=0,odd=0;
   printf("Enter elements of the array:");
+  printf("\n");
   for(i=0;i<10;i++)
   {
     scanf("%d",&a[i]);
@@ -13,5 +14,6 @@ void main()
       odd++;
   }
   printf("Total even numbers are: %d",even);
+  printf("\n");
   printf("Total odd numbers are: %d", odd);
 }
